@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import { View } from '../types';
 
-export default function HomeView({ setView }: { setView: (v: string) => void }) {
+export default function HomeView({ setView }: { setView: (v: View) => void }) {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
