@@ -1,9 +1,11 @@
 :root {
-  --bg: #fafafa;
-  --fg: #111827;
-  --muted: #6b7280;
-  --border: #e5e7eb;
-  --accent: #006633;
+--golden-pollen: #ffc857ff;
+  --burnt-peach: #e9724cff;
+  --intense-cherry: #c5283dff;
+  --night-bordeaux: #481d24ff;
+  --baltic-blue: #255f85ff;
+  --border: #255f85ff;
+  --accent: #255f85ff;
   --accent-soft: #f1f5e8;
   --danger: #b91c1c;
   font-family: system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;

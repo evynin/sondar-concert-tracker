@@ -4,7 +4,7 @@ import { supabase } from './lib/supabase';
 import type { View } from './types';
 import NavBar from './components/NavBar';
 import HomeView from './pages/HomeView';
-import ProductListView from './pages/ProductListView';
+import ConcertListView from './pages/ConcertListView';
 import SignInView from './pages/SignInView';
 import SignUpView from './pages/SignUpView';
 
@@ -32,8 +32,8 @@ export default function App() {
     <>
       <NavBar view={view} setView={setView} user={user} />
       <main>
-        {view === 'home' && <HomeView />}
-        {view === 'list' && <ProductListView user={user} />}
+        {view === 'home' && <HomeView setView={setView} />}
+        {view === 'list' && <ConcertListView user={user} />}
         {view === 'signin' && <SignInView setView={setView} />}
         {view === 'signup' && <SignUpView setView={setView} />}
       </main>

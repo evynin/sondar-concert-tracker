@@ -11,10 +11,10 @@
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
-    "jsx": "react-jsx",
+    "jsx": "react-jsx",    
     "strict": true,
     "noFallthroughCasesInSwitch": true,
-    "types": ["vite/client"]
+    "types": ["vite/client","node", "react", "react-dom"]
   },
   "include": ["src", "vite.config.ts"]
 }
